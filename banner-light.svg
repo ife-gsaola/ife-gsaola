@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saola Gbenga Ifeoluwa. Real-time AI systems: speech, video, LLMs and data.">
+  <style>
+    .name { font: 800 60px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #2a2118; letter-spacing: -1px; }
+    .line { font: 500 25px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #6e655a; }
+    .amber { fill: #d93a2b; }
+    .mono { font: 500 15px 'Consolas', 'SFMono-Regular', Menlo, monospace; letter-spacing: 2px; fill: #6e655a; }
+    .heard { font: 500 17px 'Consolas', 'SFMono-Regular', Menlo, monospace; fill: #6e655a; }
+    .found { font: 600 17px 'Consolas', 'SFMono-Regular', Menlo, monospace; fill: #d93a2b; }
+    .dot { animation: blink 2.4s ease-in-out infinite; }
+    .bar { transform-box: fill-box; transform-origin: center; animation: talk 1.2s ease-in-out infinite; }
+    @keyframes blink { 50% { opacity: 0.3; } }
+    @keyframes talk { 0%, 100% { transform: scaleY(0.35); } 50% { transform: scaleY(1); } }
+    @media (prefers-reduced-motion: reduce) { .dot, .bar { animation: none; } }
+  </style>
+  <rect width="1200" height="300" rx="18" fill="#f4f6fa"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="none" stroke="#d9dfea"/>
+
+  <!-- tally -->
+  <circle class="dot" cx="66" cy="62" r="7" fill="#d63434"/>
+  <text class="mono" x="84" y="67">OPEN TO DATA · AI · ENGINEERING ROLES · UK</text>
+
+  <text class="name" x="56" y="150">Saola Gbenga Ifeoluwa</text>
+  <text class="line" x="58" y="196">Real-time AI systems: speech, video, LLMs and data.</text>
+
+  <!-- speech becomes a verse -->
+  <g transform="translate(58 236)">
+    <g fill="#d93a2b">
+      <rect class="bar" x="0" y="0" width="5" height="26" rx="2.5" style="animation-delay:0s"/>
+      <rect class="bar" x="10" y="0" width="5" height="26" rx="2.5" style="animation-delay:.15s"/>
+      <rect class="bar" x="20" y="0" width="5" height="26" rx="2.5" style="animation-delay:.3s"/>
+      <rect class="bar" x="30" y="0" width="5" height="26" rx="2.5" style="animation-delay:.45s"/>
+      <rect class="bar" x="40" y="0" width="5" height="26" rx="2.5" style="animation-delay:.6s"/>
+    </g>
+    <text class="heard" x="64" y="19">heard "efficiency 3 6"</text>
+    <text class="heard" x="300" y="19">→</text>
+    <text class="found" x="328" y="19">Ephesians 3:6, on screen</text>
+  </g>
+
+  <!-- stage frame -->
+  <g transform="translate(900 66)">
+    <rect width="244" height="137" rx="10" fill="#151d2c" stroke="#d9dfea"/>
+    <text class="mono" x="14" y="26" style="font-size:11px">PROGRAM · 1920×1080</text>
+    <rect x="14" y="40" width="216" height="6" rx="3" fill="#d9dfea"/>
+    <rect x="14" y="54" width="170" height="6" rx="3" fill="#d9dfea"/>
+    <rect x="14" y="68" width="190" height="6" rx="3" fill="#d9dfea"/>
+    <rect x="14" y="100" width="98" height="22" rx="11" fill="#d93a2b"/>
+    <text x="63" y="115" text-anchor="middle" style="font: 700 11px 'Segoe UI', Arial, sans-serif; fill: #ffffff">GO LIVE</text>
+    <text class="mono" x="126" y="115" style="font-size:11px">30 fps</text>
+  </g>
+</svg>
